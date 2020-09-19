@@ -1,0 +1,73 @@
+body{
+    background-color:#ffffff;
+}
+#container{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 700px;
+	border: 1px solid lightgrey;
+	margin-top: 3%;
+    
+    background-color: #f7f7f7;
+}
+#description input{
+	width: 650px;
+
+}
+#container div{
+	padding: 10px;
+	/* border: 1px solid black; */
+}
+#heading {
+	text-align: center;
+}
+#heading span{
+font-size: 2rem;
+}
+
+#container-for-category-due-date{
+	display: flex;
+	justify-content: space-around;
+}
+#category select{
+	width: 100%;
+	border: none;
+	background-color:inherit;
+}
+#due-date input{
+	border: none;
+	outline: 0;
+	background-color:inherit;
+}
+
+#buttons{
+	margin: auto;
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+#task-display{
+	list-style-type: none;
+}
+#task-display li{
+	display: flex;
+	justify-content: space-between;
+}
+.left{
+	font-size: 1.1rem;
+	transition: all 1s ease;
+
+	
+
+}
+.left input{
+	margin-right: 5px;
+}
+.right {
+	margin-right: 15px;
+}
+.done{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
