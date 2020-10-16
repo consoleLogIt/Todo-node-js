@@ -6,6 +6,5 @@ step1: clone the repository.\
 step2: In the terminal do`npm install` to download all the dependencies.
 ## How to use
 do `npm start' to start the server.\
-![1](/assets/1(1).png)
 
 
